@@ -6,4 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
+    storing = 'shoppingList';
+  onNavigate(recievedData: string){
+  this.storing = recievedData;
+}
 }
