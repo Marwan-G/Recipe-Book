@@ -5,10 +5,11 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
+export class AppComponent  {
+    storing = 'recipe';
 
-    storing = 'shoppingList';
-  onNavigate(recievedData: string){
-  this.storing = recievedData;
+  onNavigate(receivedData: string){
+  this.storing = receivedData
+  }
 }
-}
+

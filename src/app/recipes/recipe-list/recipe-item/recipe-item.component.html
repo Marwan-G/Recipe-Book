@@ -1,3 +1,15 @@
-<p>
-  item
-</p>
+<div class="row">
+  <div class="col-md-7">
+    <a
+      ref="#"
+      class="list-group-item clearfix"
+    >
+      <h4 class="list-group-heading">{{recipe.name}} </h4>
+      <p  class="list-group-text">  {{recipe.description}}
+        <span class="pull-right">
+         <img [src]="recipe.imagePath" class="img-responsive" />
+        </span>
+      </p>
+    </a>
+  </div>
+</div>

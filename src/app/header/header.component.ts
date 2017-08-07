@@ -10,5 +10,9 @@ export class AppHeader{
   onSelect(feature:string){
       this.tabSelected.emit(feature);
   }
+  constructor(){
+    console.log(this.tabSelected)
+
+  }
 
 }
