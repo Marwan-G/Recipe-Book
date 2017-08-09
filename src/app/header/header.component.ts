@@ -11,7 +11,6 @@ export class AppHeader{
       this.tabSelected.emit(feature);
   }
   constructor(){
-    console.log(this.tabSelected)
 
   }
 

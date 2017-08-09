@@ -4,6 +4,6 @@
   </div>
 </div>
 <app-recipe-item
-  *ngFor="let recipe of recipes"
-  [recipe]="recipe"
-> </app-recipe-item>
+  *ngFor="let recipeEl of recipes"
+  [recipe]="recipeEl"
+  (onSelected)="selectedRecipe(recipeEl)"> </app-recipe-item>
