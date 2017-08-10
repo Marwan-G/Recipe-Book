@@ -8,7 +8,7 @@ import {Recipe} from '../recipe.model';
 export class AppRecipeList {
   recipes: Recipe[] = [
     new Recipe("Pasta", "italian dish ", "https://cdn.pixabay.com/photo/2015/04/10/00/41/food-715539_960_720.jpg"),
-    new Recipe("Pasta", "italian dish ", "https://cdn.pixabay.com/photo/2015/04/10/00/41/food-715539_960_720.jpg")
+    new Recipe("Spagetti", "libyan dish ", "https://cdn.pixabay.com/photo/2015/04/10/00/41/food-715539_960_720.jpg")
   ];
   @Output() recipeWasSelected = new EventEmitter<Recipe>()
   selectedRecipe(recipe:Recipe){

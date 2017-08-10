@@ -5,4 +5,5 @@ import {Component , Input} from '@angular/core';
   styleUrls: ['./recipe-detail.component.css']
 })
 export class AppRecipeDetail {
+  @Input() selectedEl: {Recipe}
 }
