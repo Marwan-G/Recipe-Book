@@ -7,8 +7,8 @@ import {Component, Input,Output, EventEmitter } from '@angular/core';
 export class AppRecipeItem{
   @Input() recipe: {Recipe}
 
-  @Output() recipeSelected= new EventEmitter<void>();
+  @Output() onSelected= new EventEmitter<void>();
   OnSelectedRecipe(){
-   this.recipeSelected.emit()
+   this.onSelected.emit()
      }
    }
